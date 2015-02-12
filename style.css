@@ -1,0 +1,31 @@
+html {
+	background: #323232;
+	color: #ccc;
+	text-shadow: 0 1px #000;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+	.clearfix:after { clear: both; }
+	.clearfix { *zoom: 1; }
+
+.wrapper {
+	margin: 0 auto;
+	width: 99%;
+}
+
+aside#toolbar {
+	float: left;
+	width: 6%;
+}
+section#editor canvas {
+	float: left;
+	width: 92%;
+}
+
+canvas#artboard {
+	box-shadow: 1px 1px 10px #242424;
+	background: #fff;
+}
